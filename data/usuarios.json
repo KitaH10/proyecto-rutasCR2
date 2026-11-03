@@ -10,5 +10,53 @@
         "contrasena": "clave1234",
         "nombre": "Juan Pérez",
         "rol": "Usuario regular"
+    },
+    {
+        "usuario": "m.rodriguez@transportescr.com",
+        "contrasena": "mariar2026",
+        "nombre": "María Rodríguez",
+        "rol": "Administrador"
+    },
+    {
+        "usuario": "carlos.alvarado@transportescr.com",
+        "contrasena": "chofer987",
+        "nombre": "Carlos Alvarado",
+        "rol": "Chofer"
+    },
+    {
+        "usuario": "ana.chaves@test.com",
+        "contrasena": "anita4321",
+        "nombre": "Ana Chaves",
+        "rol": "Usuario regular"
+    },
+    {
+        "usuario": "soporte@transportescr.com",
+        "contrasena": "techPass2026",
+        "nombre": "Soporte Técnico",
+        "rol": "Administrador"
+    },
+    {
+        "usuario": "l.vargas@transportescr.com",
+        "contrasena": "logistica55",
+        "nombre": "Luis Vargas",
+        "rol": "Coordinador"
+    },
+    {
+        "usuario": "elena.monge@test.com",
+        "contrasena": "elenaSecure!",
+        "nombre": "Elena Monge",
+        "rol": "Usuario regular"
+    },
+    {
+        "usuario": "j.cascante@transportescr.com",
+        "contrasena": "rutaLibre22",
+        "nombre": "Jorge Cascante",
+        "rol": "Chofer"
+    },
+    {
+        "usuario": "f.valverde@test.com",
+        "contrasena": "fernando77",
+        "nombre": "Fernando Valverde",
+        "rol": "Usuario regular"
     }
 ]

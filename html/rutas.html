@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualización de Rutas - Rutas CR</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="web">
+    <header class="header">
+        <div class="titulo-container">
+            <h1>Rutas CR</h1>
+        </div>
+        <nav style="width: 100%;">
+            <ul class="menu-lista">
+                <li><a href="/html/sugerencias.html" class="link">Enviar Sugerencia</a></li>
+                <li><a href="/index.html" class="link">Inicio</a></li>
+            </ul>
+        </nav>
+        <div class="sesion-barra">
+            <a href="/html/login.html">
+                <button type="button" class="btn-azul" style="padding: 8px 16px;">Iniciar Sesión</button>
+            </a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="panel">
+            <h2 style="font-size: 20px; margin-bottom: 20px; border-bottom: 2px solid #000000; padding-bottom: 10px;">Información de las rutas disponibles</h2>
+            
+            <div class="filtros">
+                <input type="text" id="buscador-texto" class="campo" style="flex: 2; min-width: 200px; display: inline-block;" placeholder="Buscar por ruta o empresa...">
+                
+                <select id="filtro-provincia" class="campo" style="flex: 1; min-width: 150px; display: inline-block;">
+                    <option value="">Todas las provincias</option>
+                    <option value="San José">San José</option>
+                    <option value="Alajuela">Alajuela</option>
+                    <option value="Cartago">Cartago</option>
+                    <option value="Heredia">Heredia</option>
+                    <option value="Guanacaste">Guanacaste</option>
+                    <option value="Puntarenas">Puntarenas</option>
+                    <option value="Limón">Limón</option>
+                </select>
+            </div>
+
+            <div id="container-rutas" class="grid"></div>
+        </section>
+
+        <aside class="favoritos-panel">
+            <h3 class="h3-favoritos">Mis Rutas Favoritas</h3>
+            <div id="container-favoritos" class="container-favoritos-target"></div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>Mini Proyecto Eduardo Betancourt</p>
+    </footer>
+    <script src="../js/auth-status.js"></script>
+    <script src="../js/rutas.js"></script>
+</body>
+</html>

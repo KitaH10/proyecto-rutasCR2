@@ -1,0 +1,14 @@
+[
+    {
+        "usuario": "admin@transportescr.com",
+        "contrasena": "admin123",
+        "nombre": "Eduardo Betancourt",
+        "rol": "Administrador"
+    },
+    {
+        "usuario": "usuario@test.com",
+        "contrasena": "clave1234",
+        "nombre": "Juan Pérez",
+        "rol": "Usuario regular"
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "id": "tuasa-pista",
+        "nombre": "San José - Alajuela (Por Pista)",
+        "empresa": "TUASA",
+        "tarifa": "₡810",
+        "horario": "De 04:30 a 23:00 cada 10 minutos",
+        "habilitada": true,
+        "provincias": ["San José", "Alajuela"],
+        "alt": "Autobús interurbano de la empresa TUASA con su carrocería en franjas rojas, blancas y negras.",
+        "mapaUrl": "https://www.google.com/maps/dir/Terminal+TUASA:+Alajuela-San+Jos%C3%A9,+2Q8M%2B57W,+C.+8,+Provincia+de+Alajuela,+Alajuela,+El+Carmen/Parada+Alajuela,+Costado+norte+parque+La+Merced,+San+Jos%C3%A9,+Merced/@9.9210032,-84.2300806,12.18z/data=!4m14!4m13!1m5!1m1!1s0x8fa0f9c58e88e3f7:0x1fd24cefbc8630d7!2m2!1d-84.2168067!2d10.0154993!1m5!1m1!1s0x8fa0e35ea46af9db:0x2c3e078d203789e7!2m2!1d-84.0845018!2d9.9340396!3e3!13s100608777466636220136?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+        "id": "lumaca-cartago",
+        "nombre": "San José - Cartago (Directo)",
+        "empresa": "LUMACA",
+        "tarifa": "₡640",
+        "horario": "De 05:00 a 22:00 cada 15 minutos",
+        "habilitada": true,
+        "provincias": ["San José", "Cartago"],
+        "alt": "Autobús de la empresa LUMACA pintado completamente con su color azul oscuro brillante.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "caribenos-limon",
+        "nombre": "San José - Limón (Ruta 703)",
+        "empresa": "GRUPO CARIBEÑOS",
+        "tarifa": "₡4.270",
+        "horario": "De 04:30 a 19:30 cada 30-60 minutos",
+        "habilitada": true,
+        "provincias": ["San José", "Limón"],
+        "alt": "Autobús de largo recorrido de Grupo Caribeños con diseño elegante sobre carrocería de color negro predominante.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "eupsa-puntarenas",
+        "nombre": "San José - Puntarenas (Directo)",
+        "empresa": "EUPSA",
+        "tarifa": "₡3.300",
+        "horario": "De 06:00 a 19:00 cada 2 horas",
+        "habilitada": true,
+        "provincias": ["San José", "Puntarenas"],
+        "alt": "Autobús de la empresa Empresarios Unidos de Puntarenas con un color de pintura en franjas naranjas y blancas.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "pulmitan-liberia",
+        "nombre": "San José - Liberia (Ruta 500)",
+        "empresa": "PULMITAN DE LIBERIA",
+        "tarifa": "₡5.270",
+        "horario": "Salidas diarias frecuentes de 06:00 a 20:00",
+        "habilitada": false,
+        "provincias": ["San José", "Guanacaste"],
+        "alt": "Autobús de la empresa Pulmitán de Liberia mostrando su diseño en tonos verdes.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "lopez-tuetal-norte",
+        "nombre": "Alajuela - Tuetal Norte",
+        "empresa": "AUTOTRANSPORTES LOPEZ S.A.",
+        "tarifa": "₡295",
+        "horario": "De 05:00 a 04:00 (Frecuencia de 15-30 min)",
+        "habilitada": true,
+        "provincias": ["Alajuela"],
+        "alt": "Autobús para rutas locales de la empresa Autotransportes López con detalles en verde y blanco.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "bonilla-pueblo-nuevo",
+        "nombre": "Alajuela - Pueblo Nuevo (Barrio San José)",
+        "empresa": "HERMANOS BONILLA",
+        "tarifa": "₡300",
+        "horario": "De 05:10 a 22:30 (Frecuencia de 20-30 min)",
+        "habilitada": true,
+        "provincias": ["Alajuela"],
+        "alt": "Autobús urbano de la empresa Hermanos Bonilla, rotulado con franjas amarillas y blancas.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "tuasa-alajuela-heredia",
+        "nombre": "Alajuela - Heredia - San José",
+        "empresa": "TUASA",
+        "tarifa": "₡1.545",
+        "horario": "De 04:00 a 22:00 con salidas cada 6-12 minutos",
+        "habilitada": true,
+        "provincias": ["Alajuela", "Heredia", "San José"],
+        "alt": "Autobús interprovincial de TUASA con franjas rojas, blancas y negras cruzando los costados",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "trans-montecillos",
+        "nombre": "Alajuela - Montecillos (Ruta 225-A)",
+        "empresa": "TRANS MONTECILLOS",
+        "tarifa": "₡310",
+        "horario": "De 05:00 a 22:30 cada 10-15 minutos",
+        "habilitada": true,
+        "provincias": ["Alajuela"],
+        "alt": "Autobús de la línea Trans Montecillos con un patrón de diseño lateral que combina blanco, azul y naranja.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "carrillos-chilamate",
+        "nombre": "Alajuela - Carrillos - Chilamate - Poás (Ruta 228)",
+        "empresa": "CARRILLOS-CHILAMATE",
+        "tarifa": "₡445",
+        "horario": "De 05:20 a 21:00 cada 30 minutos",
+        "habilitada": true,
+        "provincias": ["Alajuela", "Heredia"],
+        "alt": "Autobús rural de la ruta Carrillos-Chilamate con pintura principalmente blanca.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "alpizar-el-coyol",
+        "nombre": "Alajuela - El Coyol (Ruta 229)",
+        "empresa": "HERMANOS BONILLA",
+        "tarifa": "₡340",
+        "horario": "De 04:40 a 22:30 cada 10-15 minutos",
+        "habilitada": true,
+        "provincias": ["Alajuela"],
+        "alt": "Autobús asignado al sector de El Coyol, de color amarillo y blanco con el número de placa visible al frente.",
+        "mapaUrl": "https://google.com"
+    },
+    {
+        "id": "tuasa-monserrat",
+        "nombre": "Alajuela - Barrio Monserrat",
+        "empresa": "TUASA",
+        "tarifa": "₡280",
+        "horario": "De 05:00 a 22:15 cada 15-20 minutos",
+        "habilitada": true,
+        "provincias": ["Alajuela"],
+        "alt": "Autobús urbano de TUASA rojo y negro para el Barrio Monserrat.",
+        "mapaUrl": "https://google.com"
+    }
+]

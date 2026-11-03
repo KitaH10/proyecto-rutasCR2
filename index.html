@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transportes CR</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' http://127.0.0.1:5500 ws://127.0.0.1:5500 http://localhost:5500 ws://localhost:5500;">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="web">
+    <header class="header">
+        <div class="titulo-container">
+            <h1>Rutas CR</h1>
+        </div>
+        <nav style="width: 100%;">
+            <ul class="menu-lista">
+                <li><a href="/html/rutas.html" class="link">Rutas Disponibles</a></li>
+                <li><a href="/html/sugerencias.html" class="link">Enviar Sugerencia</a></li>
+            </ul>
+        </nav>
+        <div class="sesion-barra">
+            <a href="/html/login.html">
+                <button type="button" class="btn-azul" style="padding: 8px 16px;">Iniciar Sesión</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>La forma más sencilla de navegar por las rutas de autobús en Costa Rica</h2>
+            <p style="margin-bottom: 25px;">Consulta horarios actualizados, tarifas y mapas interactivos para planificar tu próximo viaje de forma sencillo.</p>
+            <a href="html/rutas.html" class="btn-hero">Ver Rutas Disponibles</a>
+        </div>
+    </section>
+
+    <main class="main">
+        <section class="panel">
+            <h2>Problemática que se representa</h2>
+            <p>En Costa Rica no existe una forma eficiente de acceder a la información de las rutas de autobús, la información esta muy dispersa, desactualizada o carece de un dato importante como lo es el precio y los horarios.</p>
+            <br>
+            <h2>Público objetivo</h2>
+            <p>Los usuarios que se perjudican de esta situación son las personas que utilizan el transporte público a diario, especialmente las que deben tomar más de una ruta o buscar información sobre ellas.</p>
+            <br>
+            <h2>Solución propuesta</h2>
+            <p>La propuesta es crear un sitio web que primeramente muestre la información necesaria para navegar y utilizar el sitio. Los usuarios podrán iniciar sesión para guardar sus rutas favoritas y recibir actualizaciones de las rutas de su interés. Los usuarios podrán acceder a la información de las rutas seleccionadas, tales como horarios, tarifas y una representación visual de la ruta en un mapa. Los usuarios también podrán llenar un formulario para reportar problemas con la información de alguna de las rutas.</p>
+        </section>
+
+        <section class="panel">
+            <h2>Información de uso del sitio</h2>
+            <p>Esta es la información sobre cómo utilizar el sitio web de Transportes CR.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Mini Proyecto Eduardo Betancourt</p>
+    </footer>
+    <script src="js/auth-status.js"></script>
+</body>
+</html>

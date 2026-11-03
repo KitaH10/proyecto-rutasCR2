@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugerir una Ruta - Rutas CR</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="web">
+    <header class="header">
+        <div class="titulo-container">
+            <h1>Rutas CR</h1>
+        </div>
+        <nav style="width: 100%;">
+            <ul class="menu-lista">
+                <li><a href="/html/rutas.html" class="link">Rutas Disponibles</a></li>
+                <li><a href="/index.html" class="link">Inicio</a></li>
+            </ul>
+        </nav>
+        <div class="sesion-barra">
+            <a href="/html/login.html">
+                <button type="button" class="btn-azul" style="padding: 8px 16px;">Iniciar Sesión</button>
+            </a>
+        </div>
+    </header>
+
+    <main class="login-container" style="min-height: auto;">
+        <section class="login-tarjeta" style="max-width: 800px;">
+            <h2>Enviar Sugerencia o Reporte de Ruta</h2>
+            <p style="font-size: 14px; color: #555; margin-bottom: 25px;">Utilice este formulario para reportar problemas con los horarios, tarifas o sugerir la inclusión de nuevas rutas en el sitio</p>
+
+            <form id="formulario-sugerencia" class="formulario">
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <div class="campo" style="flex: 1; min-width: 200px;">
+                        <label for="select-provincia">Provincia *</label>
+                        <select id="select-provincia" name="provincia" required>
+                            <option value="">Seleccione...</option>
+                            <option value="San José">San José</option>
+                            <option value="Alajuela">Alajuela</option>
+                            <option value="Cartago">Cartago</option>
+                            <option value="Heredia">Heredia</option>
+                            <option value="Guanacaste">Guanacaste</option>
+                            <option value="Puntarenas">Puntarenas</option>
+                        </select>
+                    </div>
+
+                    <div class="campo" style="flex: 1; min-width: 200px;">
+                        <label for="select-canton">Cantón *</label>
+                        <select id="select-canton" name="canton" required disabled>
+                            <option value="">Seleccione una provincia</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Fila: Distrito y Motivo -->
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <div class="campo" style="flex: 1; min-width: 200px;">
+                        <label for="select-distrito">Distrito *</label>
+                        <select id="select-distrito" name="distrito" required disabled>
+                            <option value="">Seleccione un cantón</option>
+                        </select>
+                    </div>
+
+                    <div class="campo" style="flex: 1; min-width: 200px;">
+                        <label for="select-motivo">Motivo de la sugerencia *</label>
+                        <select id="select-motivo" name="motivo" required>
+                            <option value="">Seleccione...</option>
+                            <option value="Ruta Faltante">Sugerir ruta faltante</option>
+                            <option value="Horario Incorrecto">Reportar horario desactualizado</option>
+                            <option value="Tarifa Incorrecta">Reportar tarifa incorrecta</option>
+                            <option value="Otro">Otro problema o sugerencia</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Detalle de la sugerencia -->
+                <div class="campo">
+                    <label for="txt-detalles">Detalles de la sugerencia</label>
+                    <textarea id="txt-detalles" name="detalles" rows="5" placeholder="Escriba aquí detalladamente los horarios correctos, precios o el nombre de la empresa..." required></textarea>
+                </div>
+
+                <!-- Botón de Envío -->
+                <div class="campo">
+                    <button type="submit" class="btn-azul">Enviar Reporte</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Mini Proyecto Eduardo Betancourt</p>
+    </footer>
+
+    <script src="../js/auth-status.js"></script>
+    <script src="../js/sugerencias.js"></script>
+</body>
+
+</html>

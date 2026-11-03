@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="web">
+    <header class="header">
+        <div class="titulo-container">
+            <h1>Rutas CR</h1>
+        </div>
+        <nav style="width: 100%;">
+            <ul class="menu-lista">
+                <li><a href="/html/rutas.html" class="link">Rutas Disponibles</a></li>
+                <li><a href="/html/sugerencias.html" class="link">Enviar Sugerencia</a></li>
+                <li><a href="/index.html" class="link">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <section class="login-tarjeta">
+            <h2>Iniciar Sesión</h2>
+            <form id="formulario-login" class="formulario">
+                <div class="campo">
+                    <label for="usuario">Correo Electrónico</label>
+                    <input type="email" id="usuario" name="usuario" placeholder="Ingrese su correo">
+                </div>
+                <div class="campo">
+                    <label for="contrasena">Contraseña</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
+                </div>
+                <div class="campo">
+                    <button type="submit" class="btn-azul">Ingresar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Mini Proyecto Eduardo Betancourt</p>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+</html>

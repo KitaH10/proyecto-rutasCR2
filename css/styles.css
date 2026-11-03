@@ -6,12 +6,11 @@
     font-family: cursive, sans-serif;
 }
 .web {
-    /* Reemplaza la imagen por tu propio archivo (ej: 'fondo.jpg' o una URL) */
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(57, 57, 57, 0.7)), url('../media/wallpaper.jpeg');
-    background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
+    background-attachment: fixed; 
     background-size: cover;
     background-position: center;
-    background-color: #ffffff; /* Respaldo por si la imagen no carga */
+    background-color: #ffffff; 
 }
 
 /* Encabezado */
@@ -50,12 +49,11 @@
 
 /* Sección Hero */
 .hero {
-    /* Capa azul semitransparente (85%) + imagen de fondo */
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 52, 141, 0.85)), url('../media/palmeras.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #00348d; /* Respaldo de color */
+    background-color: #00348d; 
     
     color: #ffffff;
     padding: 40px 20px;
@@ -308,7 +306,7 @@
 }
 
 .btn-favorito-guardado {
-    background-color: #ffeb3b !important; /* Amarillo vibrante */
+    background-color: #ffeb3b !important; 
     color: #000000 !important;
     border: 2px solid #000000 !important;
     cursor: not-allowed !important;

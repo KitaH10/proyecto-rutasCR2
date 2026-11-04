@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "CARRILLOS-CHILAMATE": "../media/carrillos.jpg"
     };
 
-    // FIX: Se agrega la constante que faltaba para evitar un ReferenceError en la ejecución
     const IMAGEN_DEFECTO = "../media/bus-generico.jpg";
 
     const sesion = JSON.parse(localStorage.getItem('sesionActiva'));
@@ -80,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let claseFavorito = '';
 
             if (!tieneSesion) {
-                // Se optimiza el texto para mantener dimensiones limpias en los botones de las tarjetas
                 textoBotonFav = '🔒 Inicie sesión';
                 atributoDeshabilitado = 'disabled style="background-color: #f0f0f0; color: #888; cursor: not-allowed;"';
             } else if (esFav) {

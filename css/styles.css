@@ -329,10 +329,23 @@
 
 /* Responsividad */
 @media (min-width: 600px) {
-    .grid { grid-template-columns: repeat(2, 1fr); }
-    .main { grid-template-columns: 1fr 1fr; }
+    .grid { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .main { 
+        grid-template-columns: 1fr; 
+    }
 }
+
 @media (min-width: 900px) {
-    .header { flex-direction: row; justify-content: space-between; }
-    .main { grid-template-columns: 2.5fr 1fr; padding: 0 20px; }
+    .header { 
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+    
+    .main { 
+        grid-template-columns: 1fr 2.5fr; 
+        padding: 0 20px; 
+    }
 }
+
